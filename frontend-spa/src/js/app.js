@@ -15,6 +15,5 @@ export const renderPage = (allArtists) => {
 };
 
 fetchArtists().then((artists) => {
-  // console.log(artists);
   renderPage(artists);
 });
